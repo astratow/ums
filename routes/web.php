@@ -24,5 +24,5 @@ Route::group(['namespace' => 'App\Http\Controllers'], function(){
     Route::get('/show-user/{id}', 'UserController@show'); //cyk
     Route::post('/edit-user{id}', 'UserController@update');
     Route::get('/edit-user{id}', 'UserController@edit');
-    // Route::post('/edit-user{id}', 'UserController@update');
+   
 });

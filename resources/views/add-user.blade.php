@@ -33,14 +33,14 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Phone Number</label>
-                                <input type="text" name="phone_bernum" class="form-control" id="exampleInputPassword1">
+                                <input type="text" name="phone_number" class="form-control" id="exampleInputPassword1">
                             </div>
-                            {{-- <div class="form-group">
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>                            {{-- <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
                                 <input type="password" name="password_text" class="form-control" id="exampleInputPassword1">
                             </div> --}}
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form>
                     </div>
                 </div>    
             </div>    
