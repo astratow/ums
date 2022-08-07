@@ -19,7 +19,7 @@ use App\Http\Controllers;
 Route::group(['namespace' => 'App\Http\Controllers'], function(){
     Route::get('/', 'UserController@index');
     Route::get('/add-user', 'UserController@create');
-    Route::post('/user-add', 'UserController@store');
+    Route::post('/user-add', 'UserController@store'); /* */
     Route::get('/delete-user{id}', 'UserController@delete');
     Route::get('/show-user/{id}', 'UserController@show'); //cyk
     Route::post('/edit-user{id}', 'UserController@update');

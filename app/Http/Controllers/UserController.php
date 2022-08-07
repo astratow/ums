@@ -18,7 +18,6 @@ class UserController extends Controller
     }
     public function store(Request $request){
        UserData::create($request->all());
-
        return redirect('/');
     }
     public function delete($id){
