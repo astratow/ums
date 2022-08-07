@@ -25,15 +25,15 @@
                             @csrf
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Name</label>
-                                <input type="text" name="user_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" name="user_name" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div> 
                             <div class="form-group">  
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" name="email_address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" name="email_address" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Phone Number</label>
-                                <input type="text" name="phone_number" class="form-control" id="exampleInputPassword1">
+                                <input type="number" name="phone_number" required="required" class="form-control" id="exampleInputPassword1">
                             </div>
 
                             <button type="submit" class="btn btn-primary">Submit</button>

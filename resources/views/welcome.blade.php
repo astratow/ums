@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>User Management System</title>
   </head>
   <body>
     <div class="container">
@@ -32,12 +32,6 @@
                               </tr>
                             </thead>
                             <tbody>
-                              {{-- <tr>
-                                <th scope="row">1</th>
-                                <td>username</td>
-                                <td>email</td>
-                                <td>phone</td>
-                              </tr>   --}}
                               @foreach($users as $user)
                               <tr>
                                 <th scope="row">{{$user->id}}</th>
