@@ -39,6 +39,7 @@
                                 <td>{{$user->email_address}}</td>
                                 <td>{{$user->phone_number}}</td>
                                 <td>
+                                  <a href="{{url('view-user'.$user->id)}}">View User</a>
                                   <a class="btn btn-warning" href="{{url('edit-user'.$user->id)}}">Edit</a>
                                   <a class="btn btn-danger" href="{{url('delete-user'.$user->id)}}">Delete</a>
                                 </td>
