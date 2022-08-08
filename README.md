@@ -1,7 +1,7 @@
 # User Management System
 
 ## Installation
-Create and edit .env file using .envexample
+Create and edit .env file using .env.example
 ```
 $ composer install
 $ php artisan migrate
