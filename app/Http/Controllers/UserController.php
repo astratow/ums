@@ -36,5 +36,5 @@ class UserController extends Controller
         $user->update($request->all());
         return redirect('/');
     }
-    // public function edit($id)-> public function show($id);
+
 }

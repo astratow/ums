@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- required="required" meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>User Management System</title>
   </head>
   <body>
     <div class="container">
@@ -25,15 +25,15 @@
                             @csrf
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Name</label>
-                                <input type="text" name="user_name" value="{{$user->user_name}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" name="user_name" required="required" value="{{$user->user_name}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div> 
                             <div class="form-group">  
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" name="email_address" value="{{$user->email_address}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" name="email_address" required="required" value="{{$user->email_address}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Phone Number</label>
-                                <input type="text" name="phone_number" value="{{$user->phone_number}}" class="form-control" id="exampleInputPassword1">
+                                <input type="number" name="phone_number" required="required" value="{{$user->phone_number}}" class="form-control" id="exampleInputPassword1">
                             </div>
                             {{-- <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
